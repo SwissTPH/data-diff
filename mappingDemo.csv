@@ -1,0 +1,25 @@
+master_name;tablet_name;tablet_mapping;paper_name;paper_mapping
+DOI;DOI;"print(time.strftime(""%d-%m-%y"",time.strptime(data,""%d-%b-%y"")))";DOI;
+EID;credentials-EID;;EID;
+STIME;gr-STIME;"print(time.strftime(""%H:%M:%S"",time.strptime(data,""%I:%M:%S %p"")))";STIME;
+SEX;gr-SEX;;SEX;
+AGE;GI_1-AGE;;AGE;
+RUN_TIME_1;GI_5-SCRN_7;;;
+BV;PE_6-BV;;;"print(getOptionNumber([""BV01"",""BV02"",""BV03"",""BV04"",""BV05"",""BV06"",""BV07"",""BV08"",""BV09"",""BV10"",""BV11"",""BV12"",""BV13"",""BV14"",""BV98""],header,record,2))"
+;;;BV01;
+;;;BV02;
+;;;BV03;
+;;;BV04;
+;;;BV05;
+;;;BV06;
+;;;BV07;
+;;;BV08;
+;;;BV09;
+;;;BV10;
+;;;BV11;
+;;;BV12;
+;;;BV13;
+;;;BV14;
+;;;BV98;
+PVP01;PE_7-PVP01;print(sumOptions(data));PVP01;
+RUN_TIME_2;Conclusion_2-SCRN_45;;;
