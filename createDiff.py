@@ -8,9 +8,11 @@ import time
 import xlwt
 import xlrd
 
+#input files
 tabletDataFile = {'name': 'DemoDataTablet.csv', 'delimiter': ';'}
 paperDataFile = {'name': 'DemoDataPaper.csv', 'delimiter': ';'}
 mappingFile = {'name': 'mappingDemo.csv', 'delimiter': ';'}
+#output files
 reportTxtFile = 'report.txt'
 reportExcelFile = 'report.xls'
 
